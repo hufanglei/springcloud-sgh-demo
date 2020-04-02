@@ -12,3 +12,6 @@ eureka:
     service-url:
 #      defaultZone: http://localhost:7001/eureka  # 入驻地址
       defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7001.com:7001/eureka/ # 搭建集群 集群是指向其他eureka
+  instance:
+    instance-id: cloud-order-service
+    prefer-ip-address: true #访问路径可以显示IP
