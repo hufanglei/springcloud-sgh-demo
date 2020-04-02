@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8002
 
 spring:
   application:
@@ -24,4 +24,4 @@ eureka:
 #      defaultZone: http://localhost:7001/eureka  # 入驻地址
       defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7001.com:7001/eureka/ # 搭建集群 集群是指向其他eureka
   instance:
-    instance-id: payment8001
+    instance-id: payment8002

@@ -21,9 +21,9 @@ public class PaymentController {
         int result = paymentService.create(payment);
         log.info("********插入结果: " + result);
         if (result > 0){
-           return new CommonResult(200, "插入数据库成功，serverPort=" + serverPort, result);
+            return new CommonResult(200, "插入数据库成功，serverPort=" + serverPort, result);
         }else {
-           return  new CommonResult(444, "插入数据库失败", null);
+            return  new CommonResult(444, "插入数据库失败", null);
         }
     }
     @GetMapping("/payment/get/{id}")
@@ -37,7 +37,5 @@ public class PaymentController {
             return  new CommonResult(444, "没有对应记录: "+ id, null);
         }
     }
-
-
 
 }
