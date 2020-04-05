@@ -15,10 +15,21 @@ import javax.annotation.Resource;
 public class OrderFeignController {
 
     @Resource
-    private PaymentFeignService paymentFeginService;
+    private PaymentFeignService paymentFeignService;
 
     @GetMapping("/consumer/payment/get/{id}")
     public CommonResult<Payment> getPaymentById(@PathVariable("id") Long id){
-        return paymentFeginService.getPaymentById(id);
+        return paymentFeignService.getPaymentById(id);
+    }
+
+    /**
+     * 模拟feign超时
+     *
+     * @return
+     */
+    @GetMapping(value = "/consumer/payment/feign/timeout")
+    public String paymentFeignTimeout() {
+        // openfeign-ribbon, 客户端一般默认等待1秒钟
+        return paymentFeignService.paymentFeignTimeout();
     }
 }
