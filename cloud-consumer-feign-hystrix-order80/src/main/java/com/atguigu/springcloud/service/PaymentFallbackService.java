@@ -1,5 +1,8 @@
 package com.atguigu.springcloud.service;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class PaymentFallbackService  implements PaymentHystrixService{
 
     @Override
