@@ -28,7 +28,7 @@ public class PaymentHystrixMain8001 {
         HystrixMetricsStreamServlet streamServlet = new HystrixMetricsStreamServlet();
         ServletRegistrationBean<HystrixMetricsStreamServlet> registrationBean = new ServletRegistrationBean<>(streamServlet);
         registrationBean.setLoadOnStartup(1);
-        registrationBean.addUrlMappings("/hystrix.stream");
+        registrationBean.addUrlMappings("/·");
         registrationBean.setName("HystrixMetricsStreamServlet");
         return registrationBean;
     }
