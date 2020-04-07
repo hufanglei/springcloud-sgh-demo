@@ -33,7 +33,7 @@ spring:
             - Path=/payment/lb/** #断言,路径相匹配的进行路由
             - After=2020-04-07T09:56:37.079+08:00[Asia/Shanghai]
 #            - Cookie=username,zzyy
-            - Header=X-Request-Id, \d+ #请求头要有X-Request-Id属性，并且值为正数
+#            - Header=X-Request-Id, \d+ #请求头要有X-Request-Id属性，并且值为正数
 
 eureka:
   instance:
