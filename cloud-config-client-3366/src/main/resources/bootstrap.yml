@@ -1,5 +1,5 @@
 server:
-  port: 3355
+  port: 3366
 
 spring:
   application:
@@ -19,6 +19,7 @@ spring:
     username: guest
     password: guest
 
+
 eureka:
   client:
     service-url:
@@ -30,4 +31,5 @@ management:
     web:
       exposure:
         include: "*"
+
 
