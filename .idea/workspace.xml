@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ec4456a-639d-4a2f-a896-2a40502986b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/cloud-stream-rabbitmq-provider8803.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/java/com/atguigu/springcloud/StreamMQMain8803.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/java/com/atguigu/springcloud/controller/ReceiveMessageListenerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -96,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8802/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="290">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -114,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-end-line="24" />
+            <state relative-caret-position="81">
+              <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -255,14 +248,14 @@
         <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/doc/docker安装rabbitmq.md" />
         <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8802/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8802/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8802/src/main/java/com/atguigu/springcloud/StreamMQMain8802.java" />
         <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8802/src/main/java/com/atguigu/springcloud/controller/ReceiveMessageListenerController.java" />
         <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/java/com/atguigu/springcloud/controller/StreamMQMain8803.java" />
         <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/java/com/atguigu/springcloud/controller/ReceiveMessageListenerController.java" />
         <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/java/com/atguigu/springcloud/StreamMQMain8803.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8802/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -701,7 +694,7 @@
       <workItem from="1586216892021" duration="8189000" />
       <workItem from="1586235577904" duration="9737000" />
       <workItem from="1586246098378" duration="7362000" />
-      <workItem from="1586270292644" duration="7732000" />
+      <workItem from="1586270292644" duration="8386000" />
     </task>
     <task id="LOCAL-00001" summary="支付模块构建完成">
       <created>1585717620490</created>
@@ -969,11 +962,25 @@
       <option name="project" value="LOCAL" />
       <updated>1586311208367</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="90_Stream之group解决消息重复消费">
+      <created>1586312672424</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1586312672424</updated>
+    </task>
+    <task id="LOCAL-00040" summary="90_Stream之group解决消息重复消费">
+      <created>1586313000966</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1586313000966</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120407000" />
+    <option name="totallyTimeSpent" value="121061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1015,7 +1022,7 @@
       <window_info anchor="bottom" id="Spring" order="16" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="17" weight="0.32991204" />
       <window_info anchor="bottom" id="Problems" order="18" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run Dashboard" order="19" weight="0.33577713" />
+      <window_info anchor="bottom" id="Run Dashboard" order="19" visible="true" weight="0.58504397" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1092,7 +1099,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="服务提供者注册进Consul" />
     <MESSAGE value="服务消费者注册进Consul" />
     <MESSAGE value="ribbon负载规则替换" />
     <MESSAGE value="euraka手写轮询算法" />
@@ -1117,7 +1123,8 @@
     <MESSAGE value="curl -X POST &quot;http://localhost:3344/actuator/bus-refresh/config-client:3355&quot;" />
     <MESSAGE value="87_Stream消息驱动之生产者" />
     <MESSAGE value="88_Stream消息驱动之消费者" />
-    <option name="LAST_COMMIT_MESSAGE" value="88_Stream消息驱动之消费者" />
+    <MESSAGE value="90_Stream之group解决消息重复消费" />
+    <option name="LAST_COMMIT_MESSAGE" value="90_Stream之group解决消息重复消费" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1462,6 +1469,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8802/src/main/java/com/atguigu/springcloud/controller/ReceiveMessageListenerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8802/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/java/com/atguigu/springcloud/StreamMQMain8803.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1484,27 +1508,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8802/src/main/java/com/atguigu/springcloud/controller/ReceiveMessageListenerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8802/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="81">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
         </state>
       </provider>
     </entry>
