@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ec4456a-639d-4a2f-a896-2a40502986b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
@@ -127,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -136,7 +135,7 @@
         <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -144,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/springcloud/NacosConfigClientMain3377.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="171">
+              <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,7 +156,7 @@
         <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/springcloud/controller/ConfigClientController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -300,10 +299,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1911" />
-    <option name="y" value="-9" />
-    <option name="width" value="1698" />
-    <option name="height" value="1018" />
+    <option name="x" value="688" />
+    <option name="y" value="105" />
+    <option name="width" value="1440" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -311,8 +310,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -828,7 +827,8 @@
       <workItem from="1586246098378" duration="7362000" />
       <workItem from="1586270292644" duration="17355000" />
       <workItem from="1586329500144" duration="4679000" />
-      <workItem from="1586390690924" duration="502000" />
+      <workItem from="1586390690924" duration="2606000" />
+      <workItem from="1586434128230" duration="2347000" />
     </task>
     <task id="LOCAL-00001" summary="支付模块构建完成">
       <created>1585717620490</created>
@@ -1145,11 +1145,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586334776376</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="104_Nacos之Group分组方案">
+      <created>1586391318602</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1586391318602</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135211000" />
+    <option name="totallyTimeSpent" value="139662000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1161,10 +1168,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="-7" width="1358" height="814" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2653846" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26876676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1180,7 +1187,7 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32577905" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32844576" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32991204" />
       <window_info anchor="bottom" id="MyBatis Log" order="11" />
@@ -1191,7 +1198,7 @@
       <window_info anchor="bottom" id="Spring" order="16" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="17" weight="0.32991204" />
       <window_info anchor="bottom" id="Problems" order="18" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run Dashboard" order="19" weight="0.58504397" />
+      <window_info anchor="bottom" id="Run Dashboard" order="19" visible="true" weight="0.36685553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1268,7 +1275,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="hystrix支付微服务构建" />
     <MESSAGE value="hystrix服务降级----支付服务端处理fallback" />
     <MESSAGE value="hystrix服务降级----订单服务降级 处理fallback" />
     <MESSAGE value="Hystrix之通配服务降级FeignFallback" />
@@ -1293,7 +1299,8 @@
     <MESSAGE value="98_Nacos之服务提供者注册" />
     <MESSAGE value="99_Nacos之服务消费者注册和负载" />
     <MESSAGE value="103_Nacos之DataID配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="103_Nacos之DataID配置" />
+    <MESSAGE value="104_Nacos之Group分组方案" />
+    <option name="LAST_COMMIT_MESSAGE" value="104_Nacos之Group分组方案" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1675,7 +1682,7 @@
     <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/springcloud/controller/ConfigClientController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1684,8 +1691,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/springcloud/NacosConfigClientMain3377.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="171">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1695,14 +1702,14 @@
     <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>
