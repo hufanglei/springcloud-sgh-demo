@@ -26,7 +26,20 @@ public class FlowLimitController {
 
     @GetMapping("/testB")
     public String testB(){
+//        log.info(Thread.currentThread().getName() + "\t" +"....testB");
         return "--------testB";
+    }
+
+    @GetMapping("/testD")
+    public String testD(){
+        //暂停毫秒
+        try {
+            TimeUnit.SECONDS.sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        log.info("testD 测试RT");
+        return "--------testD";
     }
 
     @GetMapping("/testE")
@@ -39,8 +52,8 @@ public class FlowLimitController {
     @GetMapping("/testHotKey")
     @SentinelResource(value = "testHotKey",blockHandler = "deal_testHotKey")
     public String testHotKey(@RequestParam(value = "p1",required = false) String p1,
-                             @RequestParam(value = "p1",required = false) String p2){
-        return "testHotKey";
+                             @RequestParam(value = "p2",required = false) String p2){
+        return "---------testHotKey";
     }
     public String deal_testHotKey(String p1, String p2, BlockException exception){
         return "---------------deal_testHotKey,o(╥﹏╥)o";
